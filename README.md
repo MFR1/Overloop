@@ -1,4 +1,4 @@
-# Overloop Django Tech Test Backend
+# Django Tech Test Backend
 
 ## Running with Docker
 
@@ -26,16 +26,60 @@
 - Django is used as a RESTful API, no html rendering is required
 - Marshmallow is used to serialize and deserialize django object instances
 
-## Tasks
+## Postman Outputs
+### API Collection
+![image](https://github.com/MFR1/Overloop/assets/37844263/fe612bc6-756a-44ba-b1a4-4f9f14b7f3f5)
 
-- Add an new entity called `Author` with a `first_name` and a `last_name`. An API user should be able to create a new `Author`, edit an existing one and list all existing ones.
-- Update the `Article` entity so that it relates to an `Author`. An API user should be able to select an `Author` and/or `Region` when creating or editing an `Article`.
-- A user should be allowed to enter an `Article` with no `Author`, or remove the `Author` from an existing `Article`.
-- An API user should be able to perform the following actions for each `Article`, `Author` and `Region` entity:
-    - Get all entities
-    - Create a single entity
-    - Get a single entity
-    - Update a single entity
-    - Delete a single entity
-- The app should be robust and you should make sure that everything works as specified.
-- Add unit tests for any code written to implement the tasks using a testing framework of your choice.
+### Get all entities
+For Articles:
+![image](https://github.com/MFR1/Overloop/assets/37844263/40a5a07b-6686-49f8-9354-344a4c7efd0d)
+
+For Authors:
+![image](https://github.com/MFR1/Overloop/assets/37844263/818d82c6-86e1-4383-bd7e-65d29c7635b0)
+
+For Regions:
+![image](https://github.com/MFR1/Overloop/assets/37844263/949c6acc-0677-4aab-947f-d229b1f60afc)
+
+## Create a single entity
+For Articles:
+![image](https://github.com/MFR1/Overloop/assets/37844263/a2c9f50e-9935-40e1-8efe-050fd92203a2)
+
+For Authors:
+![image](https://github.com/MFR1/Overloop/assets/37844263/2fcd2282-5543-4e01-ba5c-bf58c3e9f106)
+
+For Regions:
+![image](https://github.com/MFR1/Overloop/assets/37844263/67be2370-7b3b-490b-ab8c-b2019d92c2e0)
+
+## Get a single entity
+For Articles:
+![image](https://github.com/MFR1/Overloop/assets/37844263/c5446629-8046-4487-9caf-fbd0868192ff)
+
+For Authors:
+![image](https://github.com/MFR1/Overloop/assets/37844263/ccd443f3-f30b-4fa4-a727-b80ecef385e1)
+
+For Regions:
+![image](https://github.com/MFR1/Overloop/assets/37844263/71590070-4aba-4f0e-8aaf-82bc946e009f)
+
+## Update a single entity
+For Articles:
+![image](https://github.com/MFR1/Overloop/assets/37844263/8a5e4833-8331-432e-a499-4d427d0239b2)
+
+For Authors:
+![image](https://github.com/MFR1/Overloop/assets/37844263/264f51b6-1f22-4228-86c8-a19f3f5e58c0)
+
+For Regions:
+![image](https://github.com/MFR1/Overloop/assets/37844263/33176582-bc23-4137-a4ff-56fee5e56783)
+
+## Delete a single entity
+For Articles:
+![image](https://github.com/MFR1/Overloop/assets/37844263/fada18fa-4157-4129-a11a-9f5d6da4f160)
+
+For Authors:
+![image](https://github.com/MFR1/Overloop/assets/37844263/8451b85c-4dd0-4e2f-a5f3-99b7a35a655b)
+
+For Regions:
+![image](https://github.com/MFR1/Overloop/assets/37844263/c2223a33-5938-42f9-8e90-2163e7524012)
+
+
+
+
